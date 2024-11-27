@@ -75,5 +75,12 @@ function main(){
     })
     .catch(error => {
       console.log('No se ha encontrado la actividad:', error);
+      div.innerHTML = '';
+      const imagen = document.createElement('img');
+
+        imagen.src ='error.PNG' ;
+        imagen.alt = 'si';
+        div.appendChild(imagen); 
+        
     })
 }
