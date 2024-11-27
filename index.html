@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Vite + TS</title>
+    <script src="servicio.ts"></script>
+  </head>
+  <body>
+ 
+    <h2>Tipos de actividades:</h2>
+    <select name="Tipos" id="tipos">
+      <option value="education">education</option>
+      <option value="recreational">recreational</option>
+      <option value="social">social</option>
+      <option value=" charity"> charity</option>
+      <option value="cooking">cooking</option>
+      <option value="relaxation">relaxation</option>
+      <option value="busywork">busywork</option>
+    </select>
+    <h2>Numero de personas</h2>
+    <select name="personas" id="personas">
+      <option value="1">1</option>
+      <option value= "2" >2 </option>
+      <option value= "3" >3</option>
+      <option value="4" >4</option>
+      <option value="5" >5</option>
+      <option value="6" >6</option>
+      <option value="8" >8</option>
+    </select>
+    <button onclick="main()">Generar Actividad</button>
+    <div id="resultado"></div>
+
+  </body>
+</html>

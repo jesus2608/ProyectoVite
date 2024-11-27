@@ -1,0 +1,92 @@
+/* Estilo general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fc; /* Fondo suave y claro */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Título */
+h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para los select */
+select {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #3498db; /* Borde azul */
+  border-radius: 5px;
+  background-color: #ecf0f1; /* Fondo muy claro */
+  transition: all 0.3s ease;
+}
+
+/* Hover para select */
+select:hover {
+  border-color: #2980b9; /* Cambia el borde a un azul más oscuro */
+  background-color: #d6e7f1; /* Fondo ligeramente más oscuro */
+  cursor: pointer;
+}
+
+/* Estilo para el botón */
+button {
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Hover para botón */
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05); /* Efecto de agrandado */
+}
+
+/* Estilo del contenedor de resultados */
+#resultado {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 20px auto;
+}
+
+#resultado h1 {
+  font-size: 1.8rem;
+  color: #3498db;
+}
+
+#resultado img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Añadir un pequeño margen para mejorar la separación de los elementos */
+body > * {
+  margin-bottom: 20px;
+}
